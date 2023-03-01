@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node ./server.js"
   },
   "engines": {
@@ -26,10 +25,9 @@
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.1.0",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "postinstall": "^0.8.0"
   },
-  
-
   "devDependencies": {
     "@types/connect-flash": "^0.0.37",
     "@types/express": "^4.17.13",
