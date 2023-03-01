@@ -17,7 +17,7 @@ let mongoose = require('mongoose');
 let DB = require('./db');
 
 // point mongoose to the DB URI
-mongoose.connect(DB.URI,);
+mongoose.connect(DB.URI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
