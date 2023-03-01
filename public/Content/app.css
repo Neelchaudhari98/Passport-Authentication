@@ -14,7 +14,7 @@ Date: February 8,2023
 #b1{                /* css modification for button in home page */
     display: flexbox;
     position:absolute;
-    right: 600px;
+    right: 1000px;
     top: 550px;
     width: 100px;
     height: 50px;
